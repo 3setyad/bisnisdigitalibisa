@@ -130,14 +130,14 @@
 
 .service-item,
 .contact-item {
-    background: url(../img/service.jpg) top center no-repeat;
+    background: url(../img/team.png) top center no-repeat;
     background-size: cover;
     transition: .5s;
 }
 
 .service-item:hover,
 .contact-item:hover {
-    background: url(../img/service.jpg) bottom center no-repeat;
+    background: url(../img/team.png) bottom center no-repeat;
     background-size: cover;
 }
 
@@ -211,7 +211,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(../img/team.jpg) bottom center no-repeat;
+    background: url(../img/team.png) bottom center no-repeat;
     background-size: cover;
     height: 90px;
     padding: 0 30px;
