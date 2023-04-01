@@ -98,7 +98,7 @@
 }
 
 .bg-hero {
-    background: url(../img/team.jpg) top right no-repeat;
+    background: url(../img/team1.png) top right no-repeat;
     background-size: contain;
 }
 
@@ -211,7 +211,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(../img/team.png) bottom center no-repeat;
+    background: url(../img/team1.png) bottom center no-repeat;
     background-size: cover;
     height: 90px;
     padding: 0 30px;
@@ -283,7 +283,7 @@
 }
 
 .bg-call-to-action {
-    background: url(../img/call-to-action.jpg) top right no-repeat;
+    background: url(../img/team1.png) top right no-repeat;
     background-size: contain;
 }
 
