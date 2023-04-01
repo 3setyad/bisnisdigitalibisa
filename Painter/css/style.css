@@ -98,7 +98,7 @@
 }
 
 .bg-hero {
-    background: url(../img/about-22.jpg) top right no-repeat;
+    background: url(../img/team.jpg) top right no-repeat;
     background-size: contain;
 }
 
@@ -130,14 +130,14 @@
 
 .service-item,
 .contact-item {
-    background: url(../img/team.png) top center no-repeat;
+    background: url(../img/team1.png) top center no-repeat;
     background-size: cover;
     transition: .5s;
 }
 
 .service-item:hover,
 .contact-item:hover {
-    background: url(../img/team.png) bottom center no-repeat;
+    background: url(../img/team1.png) bottom center no-repeat;
     background-size: cover;
 }
 
