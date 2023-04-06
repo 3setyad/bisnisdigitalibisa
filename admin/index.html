@@ -88,13 +88,37 @@
                             <span class="d-none d-lg-inline-flex">John Doe</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-info border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">Profil Saya</a>
+                            <!-- Button trigger modal -->
+                            <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">Profil Saya</a>
                             <a href="#" class="dropdown-item">Keluar</a>
                         </div>
                     </div>
                 </div>
             </nav>
             <!-- Navbar End -->
+
+        
+            <!-- Modal Start -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Profil Saya</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="floatingInput" class="mb-1">Nama</label>
+                            <input type="text" class="form-control mb-3" id="floatingInput" value="Abcde Fghij">
+                            <label for="floatingSelect" class="mb-1">Sebagai</label>
+                            <input type="text" class="form-control mb-3" id="floatingInput" value="Dosen" disabled readonly>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Simpan Perubahan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal End -->
 
 
             <!-- Recent Sales Start -->
@@ -123,7 +147,7 @@
                                     <td>01 Jan 2045</td>
                                     <td>Kerjasama</td>
                                     <td>abcdefghijklmnopqrstuvwxyz</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href=""><i class="fa fa-info-circle"></i> Detail</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -131,7 +155,7 @@
                                     <td>01 Jan 2045</td>
                                     <td>Kerjasama</td>
                                     <td>abcdefghijklmnopqrstuvwxyz</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href=""><i class="fa fa-info-circle"></i> Detail</a></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -139,7 +163,7 @@
                                     <td>01 Jan 2045</td>
                                     <td>Kerjasama</td>
                                     <td>abcdefghijklmnopqrstuvwxyz</td>
-                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                    <td><a class="btn btn-sm btn-primary" href=""><i class="fa fa-info-circle"></i> Detail</a></td>
                                 </tr>
                             </tbody>
                         </table>
